@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+class Employee{
+	private:
+		char name;
+		int id_no;
+		int sallery;
+	public:
+	   	void getEmployeeInfo(){
+		cout<<name<<endl;
+		cout<<id_no<<endl;
+		cout<<sallery<<endl;
+	}
+	    int setEmployeeInfo(char n,int id,int s){
+			name=n;
+			id_no=id;
+			sallery=s;
+			return 0;
+	    }
+};
+int main()
+{
+	Employee e1;
+	e1.setEmployeeInfo('s',2345,60000);
+	e1.getEmployeeInfo();
+}

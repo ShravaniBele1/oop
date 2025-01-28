@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+class Car{
+	public:
+		string colour;
+		string name;
+		string model;
+		
+	void drive(){
+		cout<<"Turn left";
+	}
+};
+
+int main()
+{
+	Car myCarobj1;
+	myCarobj1.colour="Red";
+	myCarobj1.name="BMW";
+	myCarobj1.model="X6";
+	
+	cout<<myCarobj1.colour<<" "<<myCarobj1.name<<" "<<myCarobj1.model<<"\n";
+	
+	myCarobj1.drive();
+	return 0;
+}

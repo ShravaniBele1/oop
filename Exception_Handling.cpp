@@ -69,8 +69,8 @@ class BankAccount{
 
 int main(){
 	
-	BankAccount a1("Prasanjit Kamble",3000);
-	BankAccount a2("Shriyash Jadhav",2000);
+	BankAccount a1("Shravani",3000);
+	BankAccount a2("Aditi",2000);
 	
 	a1.deposit(5000);
 	a1.withdraw(2000);
